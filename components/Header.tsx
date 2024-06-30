@@ -16,7 +16,7 @@ const NavItem: React.FC<{
             </Link>
             {
                 dropDownTitles && (
-                    <ul className='flex-col gap-2 rounded-xl backdrop-blur-md bg-white/10 dropdown-menu hidden group-hover:block absolute top-11 -left-4 py-1 group-hover:animate-fadeInDown' aria-labelledby='dropdown-hover'>
+                    <ul className='flex-col gap-2 rounded-xl backdrop-blur-md bg-white/15 dropdown-menu hidden group-hover:block absolute top-11 -left-4 py-1 group-hover:animate-fadeInDown' aria-labelledby='dropdown-hover'>
                     {
                         dropDownTitles.map((item, id) => (
                             <li key={id} className='hover:bg-white/15 hover:text-gray-300'>

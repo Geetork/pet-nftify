@@ -48,7 +48,7 @@ const Typewriter: React.FC<{
     }
   }, [currentIndex, currentText, currentWordIndex, currentWord]);
 
-  return <span className='underline underline-offset-[12px] decoration-2'>{currentText}</span>
+  return <span className='underline underline-offset-[12px] decoration-2 xs:underline-offset-[20px]'>{currentText}</span>
 }
 
 const Hero: React.FC = () => {
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
     <section className='flex flex-col w-full bg-hero bg-no-repeat bg-cover h-screen'>
       <div className='flex-1 relative'>
         <div className='flex flex-col gap-6 absolute bottom-[80px] px-4 w-full'>
-          <p className='text-gray-100 font-bold text-4xl leading-tight md:text-7xl sm:text-6xl'>
+          <p className='text-gray-100 font-bold text-4xl leading-snug md:text-7xl sm:text-6xl'>
             Your own<br/>
             NFT Marketplace<br/>
             without&nbsp;

@@ -3,6 +3,8 @@ import Hero from "./Hero";
 import FAQ from "./FAQ";
 import Button from "./Button";
 import Footer from "./Footer";
+import Refer from './Refer';
+import LatestNews from "./LatestNews";
 
 export {
     Header,
@@ -10,4 +12,6 @@ export {
     FAQ,
     Button,
     Footer,
+    Refer,
+    LatestNews,
 }
