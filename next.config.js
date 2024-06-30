@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['localhost', 'geetork.github.io/pet-nftify'],
+      remotePatterns: [
+        {
+           protocol: "https",
+           hostname: "**",
+         },
+        ],
     },
   }
   
