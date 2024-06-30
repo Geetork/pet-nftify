@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
     basePath: '/pet-nftify',
+    reactStrictMode: true,
     images: {
-      domains: ['geetork.github.io'],   
+      domains: ['localhost', 'geetork.github.io'],   
     },
   }
   
