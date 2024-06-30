@@ -1,11 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    basePath: '/pet-nftify',
-    reactStrictMode: true,
-    images: {
-      unoptimized: true,
-    },
-  }
+  experimental: {
+    appDir: true,
+  },
+  distDir: "out",
+  output: "export",
+  images: {
+    loader: "custom",
+    loaderFile: './imageLoader.js'
+  },
+}
   
   module.exports = nextConfig
