@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <section className='flex flex-wrap pt-16 pb-4 px-4 bg-gray-910 justify-between w-full text-gray-500 font-light'>
+    <footer className='flex flex-wrap pt-16 pb-4 px-4 bg-gray-910 justify-between w-full text-gray-500 font-light'>
         <section className='flex flex-wrap bg-gray-910 justify-between w-full gap-4 text-md pb-10'>
             <form action="" className='flex flex-col gap-2'>
                 <h1 className='text-gray-300 font-bold text-xl'>Join our weekly digest!</h1>
@@ -79,7 +79,7 @@ const Footer = () => {
 
             <small>&copy; Copyright NFRIfy Network. All Rights Reserved.</small>
         </section>
-    </section>
+    </footer>
   )
 }
 
