@@ -3,10 +3,12 @@ const nextConfig = {
     images: {
       remotePatterns: [
         {
-           protocol: "https",
-           hostname: "**",
-         },
-        ],
+          protocol: 'https',
+          hostname: 'geetork.github.io',
+          port: '',
+          pathname: '/pet-nftify/**',
+        },
+      ],   
     },
   }
   
