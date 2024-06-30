@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV = 'production';
+
 const nextConfig = {
-  basePath: "/pet-nftify",
+  basePath: isProd ? "/pet-nftify" : '',
   output: "export",
-  distDir: "dist",
   images: {
     unoptimized: true,
   }

@@ -1,3 +1,5 @@
+import { basePath } from "./next.config";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -14,7 +16,7 @@ module.exports = {
         "xs": "540px"
       },
       backgroundImage: {
-        "hero": "url('/assets/banner.d2ec7521.webp')"
+        "hero": `url("${basePath}/assets/banner.d2ec7521.webp")`
       },
       keyframes: {
         "fade-in-down": {
