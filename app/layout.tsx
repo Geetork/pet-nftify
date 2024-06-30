@@ -6,7 +6,7 @@ const RootLayout = ({
 }: Readonly<{children: React.ReactNode }>) => {
   return (
     <html lang='en'>
-        <body>
+        <body className='relative'>
           {children}
         </body>
     </html>

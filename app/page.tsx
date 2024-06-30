@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const page = () => {
     return (
-        <div className="relative">
+        <>
             <Header/>
             <main>
                 <Hero/>
@@ -21,7 +21,7 @@ const page = () => {
                 <FAQ/>
             </main>
             <Footer/>
-        </div>
+        </>
     );
 };
 
