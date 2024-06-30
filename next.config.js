@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['localhost', 'geetork.github.io'],
+      domains: ['localhost', 'geetork.github.io/pet-nftify'],
     },
   }
   
