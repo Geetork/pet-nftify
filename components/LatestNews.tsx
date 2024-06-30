@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { basePath } from '../next.config';
 
 const news = [{
     topic: 'NFT Game Marketplace Development - Must Have Features',
@@ -22,7 +23,7 @@ const LatestNews = () => {
                 <div className='flex'>
                     <button className='brightness-100 hover:brightness-150'>   
                         <Image
-                            src='/assets/icon-left-arrow.svg'
+                            src={`${basePath}/assets/icon-left-arrow.svg`}
                             width={40}
                             height={40}
                             alt='left arrow'
@@ -30,7 +31,7 @@ const LatestNews = () => {
                     </button>
                     <button className='brightness-100 hover:brightness-150'>   
                         <Image
-                            src='/assets/icon-right-arrow.svg'
+                            src={`${basePath}/assets/icon-right-arrow.svg`}
                             width={40}
                             height={40}
                             alt='right arrow'

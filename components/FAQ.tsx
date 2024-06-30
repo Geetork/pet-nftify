@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { motion, MotionProps, Variants } from 'framer-motion';
 import Image from 'next/image';
+import { basePath } from '../next.config';
 
 const definitionList = [
   {
@@ -38,8 +39,8 @@ const Question: React.FC<{
       <dt className='text-gray-200 flex gap-3 cursor-pointer mt-10 pb-2' onClick={() => setIsVisible(prevState => !prevState)}>
         <Image 
           src={isVisible ?
-            '/assets/minus-icon.svg' :
-            '/assets/plus-icon.svg'}
+            `${basePath}/assets/minus-icon.svg` :
+            `${basePath}/assets/plus-icon.svg`}
           alt='plus-icon'
           width={20}
           height={20}

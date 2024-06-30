@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from './index';
+import { basePath } from '../next.config';
 
 const NavItem: React.FC<{ 
     title: string, 
@@ -52,7 +53,7 @@ const Header: React.FC = () => {
             <div className='flex gap-20 h-full items-center'>
                 <a href="#">
                     <Image
-                        src="/assets/icon.svg"
+                        src={`${basePath}/assets/icon.svg`}
                         alt='logo'
                         height={36}
                         width={119}
