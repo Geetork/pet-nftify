@@ -46,6 +46,9 @@ module.exports = {
       },
       backgroundSize: {
         "size-200": "200% 100%"
+      },
+      colors: {
+        "gray-910": "#111111",
       }
     },
   },

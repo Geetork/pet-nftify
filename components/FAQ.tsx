@@ -55,7 +55,7 @@ const Question: React.FC<{
 
 const FAQ = () => {
   return (
-    <section className='bg-black w-full min-h-screen pt-24 px-4'>
+    <section className='bg-black w-full pt-24 pb-10 px-4'>
       <h1 className='text-gray-200 font-medium text-4xl md:text-5xl leading-tight'>Frequently asked questions</h1>
       <dl className=''>
         {

@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 import { 
-    Header, Hero, FAQ 
+    Header, Hero, FAQ, Footer, 
 } from "../components";
 
 export const metadata: Metadata = {  
@@ -18,6 +18,7 @@ const page = () => {
                 <Hero/>
                 <FAQ/>
             </main>
+            <Footer/>
         </div>
     );
 };
