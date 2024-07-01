@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button: React.FC<{
     className?: string,
-    type?: 'primary' | 'secondary' | 'tertiary',
+    type?: 'primary' | 'secondary' | 'tertiary' | 'custom',
     name: string,
 }> = ({
     className = '',

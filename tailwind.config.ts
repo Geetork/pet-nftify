@@ -52,6 +52,8 @@ module.exports = {
       colors: {
         "gray-910": "#111111",
         "pink-1000": "#270010",
+        "custom-blue-100": "#1890ff",
+        "custom-blue-50": "#007aff"
       }
     },
   },

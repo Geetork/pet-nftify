@@ -1,14 +1,18 @@
 import React from 'react';
 import './globals.css';
+import { basePath } from '../next.config';
 
 const RootLayout = ({ 
   children 
 }: Readonly<{children: React.ReactNode }>) => {
   return (
     <html lang='en'>
-        <body className='relative'>
-          {children}
-        </body>
+      <head>
+        <link rel="shortcut icon" href={`${basePath}/favicon.ico`} type="image/x-icon" />
+      </head>
+      <body className='relative'>
+        {children}
+      </body>
     </html>
   )
 }
